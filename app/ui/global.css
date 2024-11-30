@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  @apply h-screen w-screen m-0 p-0 overflow-hidden;
+}
+
 input[type='number'] {
   -moz-appearance: textfield;
   appearance: textfield;
@@ -15,4 +19,12 @@ input[type='number']::-webkit-inner-spin-button {
 input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+* {
+  @apply box-border; /* Ensures consistent sizing for all elements */
+}
+
+.container {
+  @apply min-h-screen w-screen flex flex-col; /* Makes layouts fill the screen by default */
 }
