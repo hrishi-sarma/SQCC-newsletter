@@ -4,7 +4,7 @@ export default function Page() {
     return (
       <div className="min-h-screen min-w-full flex flex-col bg-black text-white">
         <div className="flex flex-col justify-center items-center py-10">
-          <div className="text-4xl">ABOUT</div>
+          <div className="text-5xl">ABOUT</div>
           <div className="my-10 mx-28 text-base text-center">
             This is the official publication of SQCC, a student-led club at SRM IST. Here, we publish insightful articles and blogs centered on Quantum Computing, Quantum Algorithms, Quantum Information Theory, and their applications across industries. Our content ranges from theoretical foundations to practical implementations and discussions of current trends in quantum technologies, all based on the latest research, projects, and experiences within the community.
           </div>

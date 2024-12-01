@@ -1,11 +1,11 @@
 export default function Page() {
-    // Example newsletter data, you would replace this with real data from your backend
+    
     const newsletters = [
       {
         id: 1,
         title: 'Exploring Quantum Computing',
         description: 'A brief overview of quantum computing principles and how they might revolutionize the tech industry...',
-        image: 'https://via.placeholder.com/300', // Replace with actual image URLs
+        image: 'https://via.placeholder.com/300', 
         url: '/blog/quantum-computing'
       },
       {
